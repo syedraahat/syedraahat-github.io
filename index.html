@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raahat Gilani | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f2f2f2;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .project-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+    .project-title {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      color: #111;
+    }
+    .project-desc {
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Raahat Gilani</h1>
+  <p>Developer | Innovator | Learner</p>
+</header>
+
+<nav>
+  <a href="#projects">Projects</a>
+  <a href="#future">Upcoming</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="projects">
+  <h2 style="margin-bottom: 20px;">Current Projects</h2>
+
+  <div class="project-card">
+    <h3 class="project-title">Heart Disease Prediction System</h3>
+    <p class="project-desc">A machine learning model using logistic regression to predict the likelihood of heart disease using health metrics and visual insights.</p>
+  </div>
+
+  <div class="project-card">
+    <h3 class="project-title">Chef GPT</h3>
+    <p class="project-desc">A responsive food recommendation web app using HTML, CSS, JS, and external APIs for recipes.</p>
+  </div>
+
+  <div class="project-card">
+    <h3 class="project-title">Spam Email Detector</h3>
+    <p class="project-desc">Python-based spam classifier using NLP and machine learning techniques with scikit-learn.</p>
+  </div>
+</div>
+
+<div class="container" id="future">
+  <h2 style="margin-bottom: 20px;">Upcoming Projects</h2>
+
+  <div class="project-card">
+    <h3 class="project-title">PDF Book Reader with Voice</h3>
+    <p class="project-desc">A Python app with GUI that reads aloud PDF books in multiple languages and remembers user progress.</p>
+  </div>
+
+  <div class="project-card">
+    <h3 class="project-title">Solidity Token Contract</h3>
+    <p class="project-desc">A blockchain token contract with minting, burning, and balance mapping functionality.</p>
+  </div>
+</div>
+
+<footer id="contact">
+  <p>📧 raahat@example.com | 📍 Jammu & Kashmir, India</p>
+</footer>
+
+</body>
+</html>
